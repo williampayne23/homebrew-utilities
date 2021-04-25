@@ -11,6 +11,8 @@ class YabaiWrapper < Formula
   bottle :unneeded
 
   def install
-    libexec.install "src/yabai_wrapper.sh" => "yabai_wrapper" libexec.install Dir["src/*"] bin.write_exec_script (libexec/"yabai_wrapper")
+    libexec.install "src/yabai_wrapper.sh" => "yabai_wrapper" 
+    libexec.install Dir["src/*"] 
+    bin.write_exec_script (libexec/"yabai_wrapper")
   end
 end
