@@ -5,14 +5,12 @@
 class YabaiWrapper < Formula
   desc "Wrapper for yabai window manager"
   homepage "https://github.com/williampayne23/Yabai_Wrapper"
-  url "https://github.com/williampayne23/Yabai_Wrapper/archive/Fixed action issue.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  url "https://github.com/williampayne23/Yabai_Wrapper/archive/.tar.gz"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   license "GPL-2.0"
   bottle :unneeded
 
   def install
-    libexec.install "src/yabai_wrapper.sh" => "yabai_wrapper" 
-    libexec.install Dir["src/*"] 
-    bin.write_exec_script (libexec/"yabai_wrapper")
+    libexec.install "src/yabai_wrapper.sh" => "yabai_wrapper"\n libexec.install Dir["src/*"]\n bin.write_exec_script (libexec/"yabai_wrapper")
   end
 end
