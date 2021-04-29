@@ -5,8 +5,8 @@
 class YabaiWrapper < Formula
   desc "Wrapper for yabai window manager"
   homepage "https://github.com/williampayne23/Yabai_Wrapper"
-  url "https://github.com/williampayne23/Yabai_Wrapper/archive/v1.5.1.tar.gz"
-  sha256 "f453732199dda11a9cb8a1baacba8ccaf76fc0e7fc059a09b854040bc03627ce"
+  url "https://github.com/williampayne23/Yabai_Wrapper/archive/v1.5.2.tar.gz"
+  sha256 "8d951636255b959b1da62014c84928c1704811b30ef11f5f56f45648279775b8"
   license "GPL-2.0"
   bottle :unneeded
 
